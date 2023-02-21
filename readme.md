@@ -3,7 +3,7 @@
 This is a Django project that uses the DropBox API and Python SDK to display folders in the current DropBox folder.
 
 ## Project Structure
-
+```bash
 ├── dropboxtest
 │   ├── init.py
 │   ├── asgi.py
@@ -24,7 +24,7 @@ This is a Django project that uses the DropBox API and Python SDK to display fol
 ├── requirements.txt
 ├── manage.py
 └── README.md
-
+```
 
 - `dropboxtest`: This is the main Django app that contains the settings, views, and URL configurations.
 - `myapp`: This is the app that contains the views, and URL configurations that will display the folders in user's Dropbox .
