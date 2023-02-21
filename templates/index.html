@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dropbox Folder</title>
+</head>
+<body>
+    <h1>Files in Dropbox Folder:</h1>
+    <ul>
+    {% for file_name in file_list %}
+        <li>{{ file_name }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
